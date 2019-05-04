@@ -1,4 +1,4 @@
-CFLAGS = -Wall -Werror -std=c++11
+CFLAGS = -std=c++11
 OBJ = g++ $(CFAGS)  -c $< -o $@
 TEST = g++ $(GFAGS) -I thirtdparty/catch2 -c $< -o $@
 .PHONY: clean
