@@ -1,6 +1,6 @@
 CFLAGS = -std=c++11
 OBJ = g++ $(CFAGS)  -c $< -o $@
-TEST = g++ $(CFAGS) -I thirtdparty/catch2 -c $< -o $@
+TEST = g++ $(CFLAGS) -I thirtdparty/catch2 -c $< -o $@
 .PHONY: clean
 
 all: folder1 folder2 folder3 folder4  bin/geometry.exe 
